@@ -1,0 +1,16 @@
+{
+  "name": "alexa-lambda-esp32",
+  "version": "1.0.0",
+  "description": "Lambda function to control an ESP32 using Alexa",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ask-sdk-core": "^2.14.0",
+    "axios": "^1.7.7"
+  },
+  "author": "TuNombre",
+  "license": "ISC"
+}
